@@ -1,0 +1,21 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDI_Lwtd8k3mj6CT5gkV6-gS6YOJ3IEiwI",
+  authDomain: "recharge-app-db556.firebaseapp.com",
+  projectId: "recharge-app-db556",
+  storageBucket: "recharge-app-db556.firebasestorage.app",
+  messagingSenderId: "558444254437",
+  appId: "1:558444254437:web:696007b3615e85eb97f00c",
+  measurementId: "G-SJDE2S1G8L"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
