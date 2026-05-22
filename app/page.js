@@ -1,9 +1,3 @@
-function App() {
-  return (
-    <div>
-      <h1>My New App</h1>
-    </div>
-  );
+export default function Page() {
+  return <h1>My App is Working Now</h1>;
 }
-
-export default App;
