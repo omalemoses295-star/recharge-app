@@ -1,3 +1,8 @@
-export default function Page() {
-  return <h1>My App is Working Now</h1>;
+export default function Home() {
+  return (
+    <div>
+      <h1>My Recharge App</h1>
+      <p>App is now working</p>
+    </div>
+  );
 }
