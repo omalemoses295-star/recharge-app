@@ -1,8 +1,15 @@
-export default function Home() {
-  return (
-    <div>
-      <h1>My Recharge App</h1>
-      <p>App is now working</p>
-    </div>
-  );
+{
+  "name": "recharge-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
 }
