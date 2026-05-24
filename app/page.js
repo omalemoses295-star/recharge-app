@@ -1,15 +1,3 @@
-{
-  "name": "recharge-app",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
-  }
+export default function Home() {
+  return <h1>HELLO MARK — THIS IS MY REAL APP</h1>;
 }
